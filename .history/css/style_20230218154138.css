@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 98vh;
+}
+
+.container {
+    max-height: 90%;
+    max-width: 90%;
+    display: grid;
+    place-items: center;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+    /* grid-template-areas: 'box1 box1 box2 box3' 'box4 box5 box5 box3'; */
+}
+
+.box {
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 1rem;
+    box-shadow: 0 0 10px 0 hsl(227, 47%, 96%);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
