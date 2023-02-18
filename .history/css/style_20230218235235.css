@@ -120,7 +120,7 @@ p {
     text-align: center;
     margin: 1rem;
     position: absolute;
-    bottom: -10;
+    bottom: 0;
     width: 100%;
     z-index: 11;
 }
