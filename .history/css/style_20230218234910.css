@@ -120,8 +120,7 @@ p {
     margin: 1rem;
     position: absolute;
     bottom: 0;
-    width: 100%;
-    z-index: 11;
+    display: 100%;
 }
 
 .attribution a {

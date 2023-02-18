@@ -42,7 +42,7 @@ p {
     align-items: stretch;
     /* margin: 10vw; */
     max-width: 67vw;
-    max-height: 50vh;
+    max-height: 40vh;
     justify-items: center;
     margin: 7vw auto;
 }
@@ -119,9 +119,6 @@ p {
     text-align: center;
     margin: 1rem;
     position: absolute;
-    bottom: 0;
-    width: 100%;
-    z-index: 11;
 }
 
 .attribution a {

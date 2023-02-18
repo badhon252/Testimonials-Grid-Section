@@ -12,7 +12,6 @@ body {
     font-size: 14px;
     padding: 1rem;
     font-stretch: expanded;
-    line-height: 1.15;
 }
 
 .name {
@@ -42,7 +41,7 @@ p {
     align-items: stretch;
     /* margin: 10vw; */
     max-width: 67vw;
-    max-height: 50vh;
+    max-height: 40vh;
     justify-items: center;
     margin: 7vw auto;
 }
@@ -117,11 +116,7 @@ p {
 .attribution {
     font-size: 11px;
     text-align: center;
-    margin: 1rem;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    z-index: 11;
+    margin: 1rem
 }
 
 .attribution a {

@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 body {
@@ -11,8 +11,6 @@ body {
     background-color: #edf2f8;
     font-size: 14px;
     padding: 1rem;
-    font-stretch: expanded;
-    line-height: 1.15;
 }
 
 .name {
@@ -41,8 +39,8 @@ p {
     grid-gap: 2.5em;
     align-items: stretch;
     /* margin: 10vw; */
-    max-width: 67vw;
-    max-height: 50vh;
+    max-width: 80vw;
+    max-height: 40vh;
     justify-items: center;
     margin: 7vw auto;
 }
@@ -63,7 +61,7 @@ p {
 
 .box {
     border-radius: 5px;
-    padding: 2rem;
+    padding: 1.5rem;
     box-shadow: 0 0 10px 0 hsl(231, 100%, 95%);
 }
 
@@ -117,11 +115,7 @@ p {
 .attribution {
     font-size: 11px;
     text-align: center;
-    margin: 1rem;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    z-index: 11;
+    margin: 1rem
 }
 
 .attribution a {
